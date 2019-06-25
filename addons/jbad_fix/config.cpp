@@ -1,5 +1,5 @@
 class CfgPatches {
-    class armaforces_jbad_afghan_houses_old {
+    class armaforces_jbad_fix {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.90;

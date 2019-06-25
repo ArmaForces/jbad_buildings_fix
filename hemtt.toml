@@ -22,10 +22,10 @@ releasebuild = [
         steps_windows = [
             "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_jbad_buildings_fix'"
         ]
-        # show_output = true
+        show_output = true
 
     [scripts.publish]
         steps_windows = [
-            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_jbad_buildings_fix'"
+            "powershell ./tools/Publish.ps1 {{version}} 520618345 '@armaforces_jbad_buildings_fix'"
         ]
         show_output = true

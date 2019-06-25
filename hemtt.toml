@@ -1,14 +1,14 @@
-name = "ArmaForces - Cool Addon"
-modname = "armaforces_cool_addon"
+name = "ArmaForces - JBAD Buildings Fix"
+modname = "armaforces_jbad_buildings_fix"
 prefix = "armaforces"
-author = "ArmaForces"
+author = "ArmaForces, veteran29"
 version = "1.0.0"
 files = ["mod.cpp"]
 
 exclude = ["*.psd", "*.png", "*.tga"]
 
-keyname = "{{prefix}}_cool_addon_{{version}}"
-signame = "{{prefix}}_cool_addon_{{version}}"
+keyname = "{{prefix}}_jbad_buildings_fix_{{version}}"
+signame = "{{prefix}}_jbad_buildings_fix_{{version}}"
 reuse_private_key = true
 
 releasebuild = [
@@ -20,12 +20,12 @@ releasebuild = [
 [scripts]
     [scripts.Set_version]
         steps_windows = [
-            "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_cool_addon'"
+            "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_jbad_buildings_fix'"
         ]
         # show_output = true
 
     [scripts.publish]
         steps_windows = [
-            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_cool_addon'"
+            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_jbad_buildings_fix'"
         ]
         show_output = true

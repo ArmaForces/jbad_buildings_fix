@@ -1,15 +1,15 @@
 class CfgPatches {
-    class armaforces_cool_addon_something {
+    class armaforces_jbad_afghan_houses_old {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.90;
         requiredAddons[] = {
-            "cba_main"
+            "armaforces_jbad_main",
+            "afghan_houses_old"
         };
-        author = "ArmaForces";
+        author = "ArmaForces, veteran29";
         url = "https://github.com/armaforces";
     };
 };
 
-#include "CfgEventHandlers.hpp"
-#include "CfgFunctions.hpp"
+#include "CfgVehicles.hpp"

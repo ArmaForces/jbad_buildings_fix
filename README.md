@@ -1,3 +1,3 @@
-## ArmaForces - Project Template (no CBA)
+## ArmaForces - JBAD Buildings Fix
 
-This a project template for HEMTT and without usage of CBA Addon standard.
+Armor value fixes for JBAD building to make them a little bit more durable. ;-)

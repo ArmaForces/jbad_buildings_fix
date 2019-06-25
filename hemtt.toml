@@ -26,6 +26,6 @@ releasebuild = [
 
     [scripts.publish]
         steps_windows = [
-            "powershell ./tools/Publish.ps1 {{version}} 520618345 '@armaforces_jbad_buildings_fix'"
+            "powershell ./tools/Publish.ps1 {{version}} 1781106281 '@armaforces_jbad_buildings_fix'"
         ]
         show_output = true
